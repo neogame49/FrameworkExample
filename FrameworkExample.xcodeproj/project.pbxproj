@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		BA41165C1C6C9F1D00503339 /* FrameworkExample.h in Headers */ = {isa = PBXBuildFile; fileRef = BA41165B1C6C9F1D00503339 /* FrameworkExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA4116641C6C9F8D00503339 /* NewFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4116631C6C9F8D00503339 /* NewFile.swift */; };
+		BA4116661C6CA9C600503339 /* NewFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4116651C6CA9C600503339 /* NewFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BA4116581C6C9F1D00503339 /* FrameworkExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA41165B1C6C9F1D00503339 /* FrameworkExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameworkExample.h; sourceTree = "<group>"; };
 		BA41165D1C6C9F1E00503339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA4116631C6C9F8D00503339 /* NewFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewFile.swift; sourceTree = "<group>"; };
+		BA4116651C6CA9C600503339 /* NewFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewFile.swift; path = Source/NewFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,9 +48,9 @@
 		BA41165A1C6C9F1D00503339 /* FrameworkExample */ = {
 			isa = PBXGroup;
 			children = (
+				BA4116651C6CA9C600503339 /* NewFile.swift */,
 				BA41165B1C6C9F1D00503339 /* FrameworkExample.h */,
 				BA41165D1C6C9F1E00503339 /* Info.plist */,
-				BA4116631C6C9F8D00503339 /* NewFile.swift */,
 			);
 			path = FrameworkExample;
 			sourceTree = "<group>";
@@ -133,7 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA4116641C6C9F8D00503339 /* NewFile.swift in Sources */,
+				BA4116661C6CA9C600503339 /* NewFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +283,7 @@
 				BA4116621C6C9F1E00503339 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
